@@ -42,7 +42,7 @@ Setup Instructions
    binance_secret_key = "your_binance_api_secret"
 3. Run the bot.
    ```bash
-   python bot_coin_final_adaptive.py:
+   python bot_coin_final_adaptive.py
    
 **MONITOR FIRST FEW TRADES CLOSELY**
 
