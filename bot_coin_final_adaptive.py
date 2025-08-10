@@ -69,17 +69,17 @@ class Config:
     BINANCE_OPEN_ORDERS_URL = f"{BINANCE_BASE_URL}/openOrders"
 
     # REAL TRADING PARAMETERS  
-    POSITION_SIZE_USDT = 70  # Reduced from 25 to 15
+    POSITION_SIZE_USDT = 70  # 70 usdt per position
     MAX_CONCURRENT_POSITIONS = 5  # Conservative
     MAX_POSITIONS_PER_SYMBOL = 1
     MIN_POSITION_SIZE = 11  # Minimum Binance requirement
-    MIN_USDT_BALANCE = 5  # Reduced from 30 to 20 (more aggressive)
+    MIN_USDT_BALANCE = 5  # Reduced from 30 to 5 (more aggressive)
 
     STOP_LOSS_PCT = 0.02  # 2% stop loss
-    TAKE_PROFIT_PCT = 0.03  # 3.5% take profit
+    TAKE_PROFIT_PCT = 0.03  # 3% take profit
     TRAILING_STOP_PCT = 0.015
     MAX_PORTFOLIO_RISK = 0.05  # 5% max risk
-    MAX_DAILY_LOSS = 5  # $50 max daily loss
+    MAX_DAILY_LOSS = 5  # $5 max daily loss
 
     # Strategy parameters
     VOLUME_LOOKBACK = 12
@@ -106,7 +106,7 @@ class Config:
     FOCUS_PAIRS = [
         'BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'XRPUSDT', 'ADAUSDT',
         'SOLUSDT', 'DOGEUSDT', 'AVAXUSDT', 'LINKUSDT', 'DOTUSDT'
-    ]
+    ] #add more coin pairs to focus on if needed
 
 # ================== SETUP LOGGING ==================
 def setup_logging():
