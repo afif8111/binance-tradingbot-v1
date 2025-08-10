@@ -35,7 +35,7 @@ Database Logging: SQLite trade history
 Position Tracking: Portfolio management
 
 
-# 📋 Prerequisites
+# Prerequisites
 Before you start, make sure you have:
 
 Python 3.8 or higher
