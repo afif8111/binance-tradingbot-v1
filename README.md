@@ -72,7 +72,8 @@ Basic understanding of cryptocurrency trading
     TAKE_PROFIT_PCT = 0.03        # 3% take profit
 4. Test Setup first
    ```bash
-   python 
+   #run with small amount first
+   python bot_coin_final_adaptive.py
 
 **MONITOR FIRST FEW TRADES CLOSELY**
 
@@ -89,6 +90,15 @@ Telegram
 Message @BotFather
 Create new bot
 Get your chat ID from @userinfobot
+
+# How It Works
+Strategy Overview
+
+Volume Analysis: Identifies buying/selling pressure
+Zone Detection: Finds key support/resistance levels
+Signal Generation: Combines volume + zones for entry signals
+Risk Management: Automatic stop-loss and take-profit
+Position Tracking: Monitors and manages open trades
 
 Collaboration
 Feel free to contact me in linkedin for collaboration : www.linkedin.com/in/ariqulfikri
