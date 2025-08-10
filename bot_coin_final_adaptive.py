@@ -1,5 +1,5 @@
 # ================= REAL TRADING BOT - BINANCE LIVE =================
-# File: real_trading_bot_v2_fixed.py
+
 
 import time
 import requests
