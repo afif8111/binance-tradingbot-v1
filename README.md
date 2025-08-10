@@ -5,30 +5,45 @@ Automated cryptocurrency trading bot for Binance using volume analysis and zone 
 **HIGH RISK WARNING**
 
 **This bot executes REAL TRADES with REAL MONEY**
+
 **You can LOSE MONEY using this bot**
+
 **NO GUARANTEES of profit - past performance ≠ future results**
+
 **USE AT YOUR OWN RISK - authors not responsible for losses**
 
 
 
  Features
 
-<Real-time Analysis: Live market data processing>
-<Volume Patterns: Detects accumulation/distribution>
-<Zone Detection: Identifies support/resistance levels>
-<Auto Trading: Automated buy/sell execution>
+Real-time Analysis: Live market data processing
+
+Volume Patterns: Detects accumulation/distribution
+
+Zone Detection: Identifies support/resistance levels
+
+Auto Trading: Automated buy/sell execution
+
 Risk Management: Stop-loss and take-profit orders
+
 Telegram Alerts: Real-time notifications
+
 Database Logging: SQLite trade history
+
 Position Tracking: Portfolio management
+
 
 📋 Prerequisites
 Before you start, make sure you have:
 
 Python 3.8 or higher
+
 Binance account with API access
+
 Telegram account for notifications
+
 Sufficient USDT balance (minimum $50)
+
 Basic understanding of cryptocurrency trading
 
 Setup Instructions
