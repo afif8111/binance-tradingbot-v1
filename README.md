@@ -95,9 +95,13 @@ Get your chat ID from @userinfobot
 Strategy Overview
 
 Volume Analysis: Identifies buying/selling pressure
+
 Zone Detection: Finds key support/resistance levels
+
 Signal Generation: Combines volume + zones for entry signals
+
 Risk Management: Automatic stop-loss and take-profit
+
 Position Tracking: Monitors and manages open trades
 
 Collaboration
