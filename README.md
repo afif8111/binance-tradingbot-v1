@@ -62,7 +62,8 @@ Get your chat ID from @userinfobot
 
 Collaboration
 Feel free to contact me in linkedin for collaboration : www.linkedin.com/in/ariqulfikri
-📄 License
+
+License
 MIT License - see LICENSE file.
 
 ⚠️ **Risk Warning: Trading crypto involves risk of loss!**
