@@ -104,7 +104,7 @@ Risk Management: Automatic stop-loss and take-profit
 
 Position Tracking: Monitors and manages open trades
 
-Collaboration
+# Collaboration
 Feel free to contact me in linkedin for collaboration : www.linkedin.com/in/ariqulfikri
 
 License
