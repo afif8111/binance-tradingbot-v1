@@ -1,5 +1,7 @@
 # binance-tradingbot-v1
 Automated cryptocurrency trading bot for Binance using volume analysis and zone detection.
+
+
  **IMPORTANT DISCLAIMERS**
 
 **HIGH RISK WARNING**
