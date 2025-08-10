@@ -1,14 +1,38 @@
 # binance-tradingbot-v1
 Automated cryptocurrency trading bot for Binance
 Automated cryptocurrency trading bot for Binance using volume analysis and zone detection.
-**DISCLAIMER**
+ **IMPORTANT DISCLAIMERS**
 
-HIGH RISK: This bot trades with real money
-FINANCIAL LOSS POSSIBLE: You can lose your investment
-USE AT YOUR OWN RISK: Authors not responsible for losses
-EDUCATIONAL PURPOSE: Test thoroughly before live trading
+**HIGH RISK WARNING**
 
-🔧 Setup Instructions
+**This bot executes REAL TRADES with REAL MONEY**
+**You can LOSE MONEY using this bot**
+**NO GUARANTEES of profit - past performance ≠ future results**
+**USE AT YOUR OWN RISK - authors not responsible for losses**
+
+
+
+ Features
+
+Real-time Analysis: Live market data processing
+Volume Patterns: Detects accumulation/distribution
+Zone Detection: Identifies support/resistance levels
+Auto Trading: Automated buy/sell execution
+Risk Management: Stop-loss and take-profit orders
+Telegram Alerts: Real-time notifications
+Database Logging: SQLite trade history
+Position Tracking: Portfolio management
+
+📋 Prerequisites
+Before you start, make sure you have:
+
+Python 3.8 or higher
+Binance account with API access
+Telegram account for notifications
+Sufficient USDT balance (minimum $50)
+Basic understanding of cryptocurrency trading
+
+Setup Instructions
 1. Install Dependencies
    ```bash
    pip install -r requirements.txt
@@ -20,13 +44,8 @@ EDUCATIONAL PURPOSE: Test thoroughly before live trading
 3. Run the bot.
    ```bash
    python bot_coin_v2_final_adaptive.py:
-   Features
-
-Volume analysis
-Support/resistance detection
-Automated trading
-Telegram notifications
-Risk management
+   
+**MONITOR FIRST FEW TRADES CLOSELY**
 
 Setup
 Binance API
@@ -42,8 +61,8 @@ Message @BotFather
 Create new bot
 Get your chat ID from @userinfobot
 
-Support
-Create an issue for bugs or questions.
+Collaboration
+Feel free to contact me in linkedin for collaboration : www.linkedin.com/in/ariqulfikri
 📄 License
 MIT License - see LICENSE file.
 
