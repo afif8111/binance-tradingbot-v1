@@ -16,7 +16,7 @@ Automated cryptocurrency trading bot for Binance using volume analysis and zone 
 
 
 
- Features
+# Features
 
 Real-time Analysis: Live market data processing
 
@@ -35,7 +35,7 @@ Database Logging: SQLite trade history
 Position Tracking: Portfolio management
 
 
-📋 Prerequisites
+# 📋 Prerequisites
 Before you start, make sure you have:
 
 Python 3.8 or higher
@@ -48,19 +48,32 @@ Sufficient USDT balance (minimum $50)
 
 Basic understanding of cryptocurrency trading
 
-Setup Instructions
-1. Install Dependencies
+# Setup Instructions
+1. Download the code
+2. Install Dependencies
    ```bash
    pip install -r requirements.txt
-2. Edit configuration in bot_coin_final_adaptive.py:
+3. Edit configuration in bot_coin_final_adaptive.py:
    ```bash
-   bot_token = "your_telegram_bot_token"
-   api_key = "your_binance_api_key"
-   binance_secret_key = "your_binance_api_secret"
-3. Run the bot.
+   class Config:
+    # Replace these with your actual credentials
+    BOT_TOKEN = "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz"              # From @BotFather
+    BINANCE_API_KEY = "your_actual_binance_api_key_here"              # From Binance
+    BINANCE_SECRET_KEY = "your_actual_binance_secret_key_here"        # From Binance
+    
+    TELEGRAM_RECIPIENTS = [
+        {"chat_id": "123456789", "name": "Your Name"},                # Your chat ID
+    ]
+    
+    # Trading settings (adjust as needed)
+    POSITION_SIZE_USDT = 25        # Start small!
+    MAX_CONCURRENT_POSITIONS = 3   # Conservative
+    STOP_LOSS_PCT = 0.02          # 2% stop loss
+    TAKE_PROFIT_PCT = 0.03        # 3% take profit
+4. Test Setup first
    ```bash
-   python bot_coin_final_adaptive.py
-   
+   python 
+
 **MONITOR FIRST FEW TRADES CLOSELY**
 
 Setup
